@@ -189,6 +189,34 @@ header {
   line-height: 2;
 }
 
+/* ── UBICACIÓN ── */
+#ubicacion {
+  text-align: center;
+  padding: 0.5rem 1rem 2.5rem;
+}
+
+.ubicacion-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ubicacion-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--brown);
+  flex-shrink: 0;
+}
+
+.ubicacion-texto {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--mid);
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
 /* ── FOOTER vacío ── */
 footer {
   height: 3rem;
