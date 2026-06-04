@@ -30,16 +30,16 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ── BODY / FONDO FIJO ── */
+/* ── BODY / FONDO ── */
 body {
   background-color: #ffffff;
   background-image: url('../img/Fondo.jpg');
-  background-size: cover;
-  background-position: center top;
+  background-size: 100% 100%;   /* cubre todo el ancho y alto de la página */
   background-repeat: no-repeat;
   color: var(--dark);
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  min-height: 100vh;
 }
 
 /* ── HEADER – NOMBRES ── */
@@ -244,3 +244,4 @@ footer {
     padding: 2.5rem 1rem 1.2rem;
   }
 }
+
